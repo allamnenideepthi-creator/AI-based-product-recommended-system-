@@ -489,8 +489,8 @@ def thankyou_page():
     st.balloons()
     st.success("🎉 Thank you for your order! Your order has been placed successfully.")
 
-    # Wait for 3 seconds
-    time.sleep(3)
+    # Wait for 2 seconds
+    time.sleep(2)
 
     # Redirect to home page automatically
     st.session_state.page = "home"
